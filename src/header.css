@@ -1,0 +1,73 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.header__logo{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.hamburger__icon{
+ padding: 18px 16px;
+ 
+}
+
+.header__searchbox{
+    width: 728px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__searchbox input{
+    width: 540px;
+    padding:9px 16px;
+    margin-right: 40px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    
+}
+
+.header__searchbox input:focus{
+    border: none;
+    outline: none;
+    border: 1px solid blue;
+}
+.header__searchbox .search__icon{
+    position: absolute;
+    top: 0px;
+    right: 160px;
+    padding: 7px;
+    border-left: 2px solid #ccc;
+}
+
+.header__searchbox .voice__icon{
+    position: absolute;
+    top: 0px;
+    right: 110px;
+    padding: 8px;
+}
+
+.header__userbox{
+    width: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.header__userbox img{
+    border-radius: 50%;
+    margin-right: 30px;
+}
